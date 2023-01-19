@@ -1,12 +1,13 @@
 import MiApi from "./components/MiApi";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+//import Img from "../public/img/img1.jpg"
 
 const App = () => {
   return  <>
    <Header
       classN="p-3 mb-2 bg-info-subtle text-emphasis-info"
-       text= "Mi api de Locations de Rick and Mort"
+       text= "Mi api de Locations de Rick and Morty"
     />
       <MiApi />
       <Footer

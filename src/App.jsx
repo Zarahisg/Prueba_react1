@@ -1,17 +1,19 @@
 import MiApi from "./components/MiApi";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
-  return (
-    <>
-      <h1 className="p-3 mb-2 bg-info-subtle text-emphasis-info">
-        Mi api de Locations de Rick and Morty
-      </h1>
+  return  <>
+   <Header
+      classN="p-3 mb-2 bg-info-subtle text-emphasis-info"
+       text= "Mi api de Locations de Rick and Mort"
+    />
       <MiApi />
-      <footer className="text-white-50 bg-dark text-end">
-        Trabajo cierre Modulo React- G26 Desafio Latam
-      </footer>
+      <Footer
+				classFooter={"bg-dark text-white"}
+				classNp={"fs-5 text-center p-2 m-0"}
+			></Footer>
     </>
-  );
-};
+}
 
 export default App;
